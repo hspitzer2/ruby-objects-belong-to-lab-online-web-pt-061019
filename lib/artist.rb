@@ -1,11 +1,8 @@
 class Artist
-  attr_accessor :artists, :name
+  attr_accessor :name
 
-  def initialize(artist, name)
-    @name = name
-    @artist = artist
+  def initialize
+      @name = name
+      artist = name
   end
 end
-artist = Artist.new
-artist.name = "Beyonce"
-Beyonce = Artist.new("Beyonce")
